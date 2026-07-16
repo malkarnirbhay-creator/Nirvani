@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>For Nirvani ❤️</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background:linear-gradient(135deg,#ffd6e8,#fff7fa);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+    padding:20px;
+}
+
+.card{
+    background:white;
+    width:380px;
+    border-radius:25px;
+    overflow:hidden;
+    box-shadow:0 15px 35px rgba(0,0,0,.15);
+    text-align:center;
+}
+
+img{
+    width:100%;
+    height:420px;
+    object-fit:cover;
+}
+
+.content{
+    padding:25px;
+}
+
+h1{
+    color:#ff4f81;
+    margin-bottom:15px;
+}
+
+p{
+    color:#555;
+    line-height:1.7;
+    font-size:16px;
+}
+
+button{
+    margin-top:20px;
+    padding:12px 28px;
+    border:none;
+    border-radius:30px;
+    background:#ff4f81;
+    color:white;
+    font-size:16px;
+    cursor:pointer;
+}
+
+button:hover{
+    transform:scale(1.05);
+}
+
+#msg{
+    display:none;
+    margin-top:20px;
+    color:#ff4f81;
+    font-weight:bold;
+    line-height:1.7;
+}
+</style>
+</head>
+
+<body>
+
+<div class="card">
+
+<img src="photo.jpg" alt="Us">
+
+<div class="content">
+
+<h1>Hey Nirvani ❤️</h1>
+
+<p>
+I just wanted to clear something up.
+
+I wasn't ignoring you intentionally. I genuinely didn't receive your message notification, so I had no idea you had texted me. When I finally saw it, I realized how it might have looked, and I felt really bad.
+
+If it made you feel ignored, I'm truly sorry. That was never my intention.
+
+I hope you know I'd never purposely ignore you.
+</p>
+
+<button onclick="show()">One More Thing ❤️</button>
+
+<div id="msg">
+You mean a lot to me, and I hope this little page makes you smile. 😊❤️
+</div>
+
+</div>
+
+</div>
+
+<script>
+function show(){
+document.getElementById("msg").style.display="block";
+}
+</script>
+
+</body>
+</html>
